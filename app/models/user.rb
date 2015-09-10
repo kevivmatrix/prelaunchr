@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "Shave<br>Cream",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_url("refer/cream-tooltip@2x.png")
+            "image" =>  ActionController::Base.helpers.image_url("refer/cream-tooltip@2x.png")
         },
         {
             'count' => 10,
             "html" => "Truman Handle<br>w/ Blade",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_url("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.image_url("refer/truman@2x.png")
         },
         {
             'count' => 25,
             "html" => "Winston<br>Shave Set",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_url("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.image_url("refer/winston@2x.png")
         },
         {
             'count' => 50,
             "html" => "One Year<br>Free Blades",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_url("refer/blade-explain@2x.png")
+            "image" => ActionController::Base.helpers.image_url("refer/blade-explain@2x.png")
         }
     ]
 
