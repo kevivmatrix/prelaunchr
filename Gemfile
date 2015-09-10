@@ -22,7 +22,7 @@ group :development do
   gem 'pry'
 end
 
-# gem 'delayed_job_active_record', '>= 4.0.6'
+gem 'delayed_job_active_record'
 
 gem 'unicorn'
 
